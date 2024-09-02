@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,16 +12,18 @@ body{
     background-color:  hsl(0, 0%, 15%);
     border-radius: 15px;
     max-width: 500px;
+    height: 600px;
     overflow: hidden;
 }
 
 #display{
     width: 100%;
     padding: 20px;
-    font-size: 5rem;
+    font-size: 3rem;
     text-align: left;
     border: none;
     background-color: hsl(0, 0%, 20%) ;
+    color: white;
 }
 
 #keys{
@@ -32,8 +34,8 @@ body{
 }
 
 button{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border: none;
     border-radius: 50px;
     background-color: hsl(0, 0%, 30%);
